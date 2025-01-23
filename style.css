@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    background-color: rgb(13, 53, 88);
+}
+.header-container{
+    height: 40px;
+    margin: auto;
+    background-color: aquamarine;
+}
+.info{
+    
+}
