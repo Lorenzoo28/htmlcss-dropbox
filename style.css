@@ -1,18 +1,30 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-.header{
-    height: 100px;
-    background-color: rgb(13, 53, 88);
-}
-.header-container{
-    height: 40px;
-    margin: auto;
-    background-color: aquamarine;
-}
-.info{
-    
+header {
+    padding: 1rem 0;
+    background-color: transparent;
+
+    nav {
+        .container {
+            margin-inline-start: 30px;
+            margin-inline-end: 30px;
+            display: flex;
+            justify-content: space-between;
+                ul.left-menu,
+                ul.right-menu{
+                    list-style: none;
+                    display: flex;
+                    gap: 2rem;
+                        .btn{
+                            background-color: blue;
+                        }
+                    
+                }
+
+        }
+    }
 }
