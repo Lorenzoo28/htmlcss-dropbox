@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.debug {
+    border: dashed 1px;
+}
+
 header {
     padding: 1rem 0;
     background-color: transparent;
@@ -14,17 +18,34 @@ header {
             margin-inline-end: 30px;
             display: flex;
             justify-content: space-between;
-                ul.left-menu,
-                ul.right-menu{
-                    list-style: none;
-                    display: flex;
-                    gap: 2rem;
-                        .btn{
-                            background-color: blue;
-                        }
-                    
-                }
+
+            ul.left-menu,
+            ul.right-menu {
+                list-style: none;
+                display: flex;
+                gap: 2rem;
+            }
 
         }
+    }
+}
+
+main {
+    .pcontainer {
+        background-color: #b4d0e6;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .jumbo {
+        display: flex;
+        justify-content: center;
+        width: 1300px;
+        height: 500px;
+        margin: 0;
+        background-color: blueviolet;
     }
 }
